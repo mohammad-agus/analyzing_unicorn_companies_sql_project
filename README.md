@@ -14,7 +14,7 @@ Given is the `unicorns` database, which contains the following tables.
 
 
 
-```python
+```sql
 SELECT * FROM dates
 LIMIT 5;
 ```
@@ -79,7 +79,7 @@ LIMIT 5;
 
 
 
-```python
+```sql
 SELECT * FROM funding
 LIMIT 5;
 ```
@@ -148,7 +148,7 @@ LIMIT 5;
 
 
 
-```python
+```sql
 SELECT * FROM industries
 LIMIT 5;
 ```
@@ -207,7 +207,7 @@ LIMIT 5;
 
 
 
-```python
+```sql
 SELECT * FROM companies
 LIMIT 5;
 ```
@@ -290,7 +290,7 @@ Where industry1, industry2, and industry3 are the three top-performing industrie
 # The Final Query & Result
 
 
-```python
+```sql
 SELECT
 	i.industry,
 	EXTRACT(YEAR FROM d.date_joined) AS year,

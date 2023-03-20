@@ -323,7 +323,7 @@ WHERE
 
 GROUP BY 
 	i.industry,
-	DATE_PART('year', d.date_joined)
+	EXTRACT(YEAR FROM d.date_joined)
 ORDER BY
 	i.industry,
 	year DESC;

@@ -1,1 +1,0 @@
-# analyzing_unicorn_companies_sql_project
